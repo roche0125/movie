@@ -105,7 +105,7 @@ st.markdown("""
         transform: translateY(-2px);
     }
 </style>
-""", unsafe_allow_allow_html=True)
+""", unsafe_allow_html=True)
 
 # ==========================================
 # 2. 한국 시간 기준 및 날짜 설정 (2000년 ~ 2026년)
@@ -251,7 +251,7 @@ def open_ticket_booking(movie_name, open_date):
 # ==========================================
 # 6. 상단 1위 영화 하이라이트 & 예매
 # ==========================================
-st.subheader("🥇 어제 최고 흥행작 (1위)")
+st.subheader("🥇 최고 흥행작 (1위)")
 
 top_1 = df.iloc[0]
 c1, c2, c3, c4 = st.columns([2, 1.5, 1.5, 1.2])
